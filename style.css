@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+H2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0.2em;
+}
+
+label span {
+    width: 150px;
+    text-align: right;
+    display: inline-block;
+}
+
+label span:hover {
+    background-color: #89fafa;
+}
+
+form {
+    border: 1px solid #000;
+    border-radius: 1em;
+}
+
+button {
+    position: relative;
+    left: 50%;
+    border-radius: 12px;
+}

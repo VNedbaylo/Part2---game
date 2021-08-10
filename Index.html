@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HW17 - Регистрация игрока</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Введите данные игрока</h2>
+
+    <form>
+        <ul>
+            <li><label>
+                    <span>Ник</span>
+                    <input type="text"></label>
+            </li>
+            <li><label>
+                    <span>E-mail</span>
+                    <input type="email"></label>
+            </li>
+            <li><label>
+                    <span>Дата рождения</span>
+                    <input type="date"></label>
+            </li>
+            <li><label>
+                    <span>Пол</span>
+                    <select id="p-sex">
+                        <option>Мужской</option>
+                        <option>Женский</option>
+                        <option>Другой</option>
+                    </select>
+            </li>
+            <li><label>
+                    <span>Страна</span>
+                    <input type="text" id="country-list" list="countries" />
+                    <datalist id="countries">
+                        <option>Россия</option>
+                        <option>Украина</option>
+                        <option>Белорусь</option>
+                        <option>Казахстан</option>
+                        <option>Албания</option>
+                        <option>Нарния</option>
+                    </datalist>
+            </li>
+            <li><label>
+                    <span>Тип героя</span>
+                    <select id="p-sex">
+                        <option>Воин</option>
+                        <option>Стрелок</option>
+                        <option>Маг</option>
+                        <option>Алхимик</option>
+                        <option>Крепкий хозяйственник</option>
+                    </select>
+            </li>
+            <li>
+                <label>
+                    <span>Игровой опыт (лет)</span>
+                    <input type="number" name="sticks-amount" id="stks-amount" min="0" max="60" step="1">
+                </label>
+            </li>
+
+            <li>
+                <button>Зарегистрироваться</button>
+            </li>
+        </ul>
+
+    </form>
+</body>
+
+</html>
